@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'open_sansbold';
+	src: url('../fonts/opensans-bold-webfont.eot');
+	src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-bold-webfont.woff2') format('woff2'), url('../fonts/opensans-bold-webfont.woff') format('woff'), url('../fonts/opensans-bold-webfont.ttf') format('truetype'), url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sanslight';
+	src: url('../fonts/opensans-light-webfont.eot');
+	src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-light-webfont.woff2') format('woff2'), url('../fonts/opensans-light-webfont.woff') format('woff'), url('../fonts/opensans-light-webfont.ttf') format('truetype'), url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sansregular';
+	src: url('../fonts/opensans-regular-webfont.eot');
+	src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-regular-webfont.woff2') format('woff2'), url('../fonts/opensans-regular-webfont.woff') format('woff'), url('../fonts/opensans-regular-webfont.ttf') format('truetype'), url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sansextrabold';
+	src: url('../fonts/opensans-extrabold_1-webfont.eot');
+	src: url('../fonts/opensans-extrabold_1-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/opensans-extrabold_1-webfont.woff2') format('woff2'),  url('../fonts/opensans-extrabold_1-webfont.woff') format('woff'),  url('../fonts/opensans-extrabold_1-webfont.ttf') format('truetype'),  url('../fonts/opensans-extrabold_1-webfont.svg#open_sansextrabold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{font-family: 'open_sansregular';}
+.row{margin:0px}
+.no-padd{padding:0}
+.navbar-top{ background:#012340;border-radius:0px;margin-bottom:0}
+.navbar-top .navbar-brand{height:auto;padding:8px 0;margin-left:0}
+.navbar-top .navbar-right{margin-top:35px}
+.navbar-top .navbar-nav > li > a{padding:0px 25px;color:#fff;font-size:16px;transition:0.5s;-webkit-transition:0.5s}
+.navbar-top .navbar-nav > li > a:hover{color:#00bff3}
+.navbar-top .navbar-nav > .active > a, .navbar-top .navbar-nav > .active > a:hover, .navbar-top .navbar-nav > .active > a:focus{background-color:transparent;color:#00bff3}
+.login-btn{ background-color: #00bff3;border-radius: 32px;color: #000;font-size: 12px;font-weight: normal;padding:8px 20px;}
+.b-left{border-left:1px solid #00bff3}
+.banner-bg{background:url(../images/banner.jpg) bottom center no-repeat; background-size:cover;xxheight:467px}
+.banner-text{padding:150px 0px 60px 0}
+.banner-btn{padding-bottom:80px;}
+.all-login{padding:50px 0}
+.all-login figure figcaption h2{font-size:18px;color:#012340}
+.all-login figure figcaption  p{font-size:14px;color:#5f5f5f;padding:0 10px}
+.about{padding:30px}
+.about h2{color:#012340}
+.about p{padding-right:45px;color:#5f5f5f;font-size:13px;line-height: 23px;}
+/*.about h2:before{
+    content: "";
+    position: absolute;
+    width: 23%;
+    height: 1px;
+    bottom: 0;
+    left:39%;
+    border-bottom: 1px solid red;
+	margin:0 auto;
+}*/
+.about ul li{padding-bottom:5px}
+.about .list-unstyled img{margin-right:10px}
+.under-line{border-bottom:1px solid #d7d6d6;width:25%;margin:0 auto;position:relative;padding-top:15px;}
+.double-line{width:32%; height:4px;margin:0 auto; background:#012340; position:absolute;bottom:0px;left:32%}
+.top-bottom{padding-top:30px ;padding-bottom:30px}
+.blue-box{background:url(../images/blue-box.jpg) no-repeat top center;}
+.red-box{background:url(../images/red-box.jpg) no-repeat top center;}
+.yellow-box{background:url(../images/yellow-box.jpg) no-repeat top center;}
+.green-box{background:url(../images/green-box.jpg) no-repeat top center;}
+.color-box{padding:24px; height:160px; background-size:cover;}
+.color-box h2{font-size:22px;color:#fff}
+.color-box p{font-size:12px;color:#fff}
+
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+}
+
+/*-------------------------------*/
+/*    Carousel Transition   */
+/*-------------------------------*/
+.tcb-quote-carousel .quote {
+  color: rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: 30px;font-family: 'open_sansbold';
+}
+.tcb-quote-carousel .carousel {
+  padding-bottom: 60px;
+}
+.tcb-quote-carousel .carousel .carousel-indicators > li {
+  background-color: transparent;
+  border:1px solid #0aa8d3;
+}
+.tcb-quote-carousel .carousel .carousel-indicators .active{
+background-color: #0aa8d3;	
+}
+.tcb-quote-carousel blockquote {
+  margin-top:0px;
+  text-align: left;
+  border: none;
+  padding:0px;
+  font-size:14.5px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.tcb-quote-carousel blockquote p{margin-bottom:20px}
+.tcb-quote-carousel .profile-circle {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 100px;
+}
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+/*
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+*/
+.testi-name{color:#00bff3; font-weight:bold}
+#map {width: 100%;height:400px;}
+#map1 {width: 100%;height:600px;}
+.footer{background:#012340;padding-top:50px;color:#fff; font-size:14px}
+.footer a{color:#fff; transition:0.5s;-webkit-transition:0.5s;}
+.footer a:hover{color:#00bff3; text-decoration:none}
+.footer p{padding-top:20px}
+.footer ul{padding-left:15px;margin-top:18px}
+.footer ul li{padding:5px 0px 5px 9px}
+.footer i{margin-right:10px;font-size:20px;}
+.footer table{margin-top:18px}
+.footer td{padding-bottom:10px}
+.copy-right{background:#001c33;padding:15px}
+.social-icon ul{margin-top:0;}
+.social-icon ul li{padding:5px 10px}
+.copy-right{font-size:12px;}
+.social-icon ul li span{color:#1fb9bf;font-size:18px}
+
+
+
+
+/*circle page css*/
+.common-circle{ border-radius:50%;padding-top:35px; text-align:center; width:400px; height:400px;margin:20px auto}
+.common-circle h3 {color:#012340; font-size:28px;margin-bottom:20px }
+.common-circle p {color:#012340; font-size:14px; }
+.middle-circle{margin:-120px 0}
+.bread-crum a{color:#012340;}
+.bread-crum .active{color:#ff624a;}
+.green-circle{ background:#acffa1;}
+.peach-circle {background:#ffc198;}
+.blue-circle{ background:#9fe7ff;}
+.yellow-circle{background:#ffcc39;}
+.peach-circle {background:#ffc198;}
+.violet-circle{ background:#ecbffd;}
+.blue-circle{ background:#9fe7ff;}
+.green-circle {background:#acffa1;}
+
+.login-modal{border-radius:0px;}
+.login-header{ background:url(../images/login-line.jpg) repeat-x top center;}
+.login-header .modal-title{font-size:3.5em;color:#000;margin-top:30px; bottom:15px}
+.login-header p{font-size:20px;color:#666}
+.login-modal-dialog{width:725px}
+.login-form{background:#d6d6d6;padding:25px;}
+.login-form .form-control{background:#fff; border-radius:0; border:0px; text-transform:uppercase; height:50px}
+.login-btn-modal{border:1px solid #9f3023; border-radius:0px;padding:5px 35px;color:#fff;
+background:#ff503b; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ff7d5d, #ff4231); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff7d5d, #ff4231); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff7d5d, #ff4231); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff7d5d, #ff4231); /* Standard syntax */
+}
+.login-header .close {
+    margin-top: -27px;
+    margin-right: -27px;
+	opacity:1;
+}
+
+.form-style label{color:#939393; font-weight:normal;}
+.contact-form{margin-top:100px;}
+.form-group img{padding-top:50px;}
+
+/*image -stip css*/
+.gray-background{background:#f2f2f2; margin-top:50px;}
+.text-format{padding-top:100px}
+.text-format h4{ font-size:24px;color:#5a6a70;}
+.text-format p{font-size:16px;color:#5a6a70;padding-bottom:50px;padding-top:20px; }
+.img-back{background:#e7e7e7;}
+
+
+
+
+@media screen and (max-width:767px) and (min-width:300px) {
+.navbar-top .navbar-brand{padding:8px;height:auto;}	
+.navbar-top .navbar-nav > li > a{padding:15px 25px;}
+.b-left{border-left:none}
+.banner-bg{height:auto}
+.under-line{width:80%}
+.middle-circle{margin:0 auto}
+.common-circle{ border-radius:50%;padding-top:10px; text-align:center; width:375px; height:375px;margin:10px auto}
+.login-modal-dialog{width:auto}
+}
+@media screen and (max-width:1024px) and (min-width:768px) {
+.navbar-top .navbar-brand{padding:8px;height:auto;}	
+.navbar-top .navbar-nav > li > a{padding:15px;}
+.b-left{border-left:none}
+}
